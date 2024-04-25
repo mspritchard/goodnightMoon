@@ -5,8 +5,12 @@ var gradient = {
   b: 100
 }
 
+function windowResized() {
+  createCanvas (windowWidth, windowHeight);
+}
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
   gradient.r = random(0, 100);
   gradient.g = random(125, 255);
   gradient.b = random(0, 150);

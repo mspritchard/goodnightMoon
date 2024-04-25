@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #019541;
+  }
+  
+  canvas {
+    display: block;
+    margin:auto;
+    padding-top: 10%;
+  }
+  h1 {
+    font-family: "Alata";
+    font-size: 40pt;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .lamp {
+    position: fixed;
+    bottom: 2%;
+    left: 4%
+  }
