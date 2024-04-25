@@ -6,6 +6,11 @@
     font-style: normal;
   }
 
+@font-face {
+  font-family: "actionMan";
+  src: url(action_man_extended.ttf);
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -33,3 +38,12 @@ html, body {
     bottom: 2%;
     left: 4%
   }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: #FDE200;
+  }
+

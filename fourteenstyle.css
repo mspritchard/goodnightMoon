@@ -12,7 +12,7 @@ html, body {
   }
   
   body {
-    background-color: #019541;
+    background-color: black;
   }
   
   canvas {
@@ -36,8 +36,8 @@ html, body {
 
   a{
     text-decoration: none;
-    color: black;
+    color: #FDE200;
   }
   a:hover {
-    color: #FDE200;
+    color: #019541;
   }
