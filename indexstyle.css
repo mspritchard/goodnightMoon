@@ -17,7 +17,7 @@ html, body {
   }
   
   body {
-    background-color: #019541;
+    background-image: url("home.png");
   }
   
   canvas {
@@ -31,6 +31,14 @@ html, body {
     margin: auto;
     text-align: center;
     margin-top: 10%;
+  }
+  
+  p {
+    font-family: "Alata";
+    font-size: 40pt;
+    position: fixed;
+    bottom: 7%;
+    left: 4%
   }
 
   .lamp {
@@ -46,4 +54,5 @@ html, body {
   a:hover {
     color: #FDE200;
   }
+
 
