@@ -6,6 +6,7 @@ Goodnight room.
 Goodnight room.
 Goodnight room.
 Goodnight room.
+Goodnight room.
 Goodnight room.`;
 
 let currentCharacter = 0;
@@ -13,21 +14,22 @@ let currentCharacter = 0;
 let margin = 60;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(700, 700);
 }
 
 function draw() {
   background(1, 149, 65);
+
 //}
 
 //function mousePressed() { 
   let currentString = string.substring(0, currentCharacter);
   
   push();
-  textSize(24);
-  textFont('Courier');
+  textSize(30);
+  textFont('actionMan');
   textAlign(LEFT, TOP);
-  text(currentString, 90, 10);
+  text(currentString, 146, 3);
   pop();
   
   currentCharacter += random(0, 0.9);

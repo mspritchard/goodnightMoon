@@ -26,6 +26,8 @@ html, body {
     margin: auto;
     text-align: center;
     margin-top: 10%;
+    position: fixed;
+    margin-left: 35%;
   }
 
   .lamp {

@@ -4,12 +4,10 @@ function preload() {
   ready = loadImage('greenRect.png');
   draft = loadImage('greyRect.png');
 }
-function windowResized() {
-    createCanvas (windowWidth, windowHeight);
-  }
+
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(500,500);
   noCursor(); 
    cursor('littlerat.png', 20, 20);
   image(ready, 0, 0);

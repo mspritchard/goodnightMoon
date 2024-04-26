@@ -1,8 +1,8 @@
 var link;
 
-let sentence = "And there were # little bears sitting on chairs";
+let sentence = "And a little blank";
 let wordIndexToReplace = 3; // Change this to the index of the word you want to replace
-let words = ["two", "three", "four", "five", "six"];
+let words = ["barn", "toyhouse", "mansion", "hotel", "school"];
 
 function windowResized() {
   createCanvas (windowWidth, windowHeight);
@@ -14,7 +14,7 @@ function setup() {
   textSize(55);
   textAlign(CENTER);
   textFont("Alata");
-  //link = createA("https://mspritchard.github.io/goodnightMoon/pagesix.html");
+  //link = createA("https://mspritchard.github.io/goodnightMoon/pagenine.html");
 }
 
 function draw() {

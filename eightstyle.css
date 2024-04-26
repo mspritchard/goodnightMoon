@@ -2,7 +2,7 @@
 
 .alata-regular {
     font-family: "Alata", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
   }
 
@@ -18,7 +18,7 @@ html, body {
   canvas {
     display: block;
     margin:auto;
-    padding-top: 10%;
+    margin-top: 8%;
   }
   h1 {
     font-family: "Alata";
@@ -33,11 +33,13 @@ html, body {
     bottom: 2%;
     left: 4%
   }
-
-  a{
-    text-decoration: none;
-    color: black;
+.picture{ 
+  a:hover{
+    opacity: 70%;
   }
-  a:hover {
-    color: #FDE200;
+}
+
+  .center{
+    display: block;
+    margin: auto;
   }
