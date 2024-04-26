@@ -9,7 +9,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas (700, 700);
+  createCanvas (500, 500);
   noCursor(); 
    cursor('littlerat.png', 20, 20);
   image(ready, 0, 0);
