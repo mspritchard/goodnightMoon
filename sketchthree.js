@@ -1,19 +1,27 @@
 let phone;
 let rotary;
 
+function windowResized() {
+  createCanvas (windowWidth, windowHeight);
+}
+
 function preload() {
   rotary = loadImage("rotary.png");
   phone = loadImage("phone.png");
 }
 
+
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
   background(1, 149, 65);
-  imageMode(CORNER); 
-  image(rotary, 130, 100); 
+
+  let rotaryX = width/2;
+  let rotaryY = height/2;
+  imageMode(CENTER); 
+  image(rotary, rotaryX, rotaryY); 
   imageMode(CENTER); 
   image(phone, mouseX, mouseY);
 }

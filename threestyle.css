@@ -18,14 +18,16 @@ html, body {
   canvas {
     display: block;
     margin:auto;
-    padding-top: 10%;
   }
+
   h1 {
     font-family: "Alata";
     font-size: 40pt;
     margin: auto;
     text-align: center;
     margin-top: 10%;
+    position: fixed;
+    margin-left: 35%;
   }
 
   p {

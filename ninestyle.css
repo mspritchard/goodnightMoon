@@ -18,8 +18,9 @@ html, body {
   canvas {
     display: block;
     margin:auto;
-    padding-top: 10%;
+    margin-top: 8%;
   }
+
   h1 {
     font-family: "Alata";
     font-size: 40pt;

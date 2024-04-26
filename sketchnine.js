@@ -1,5 +1,7 @@
 let draft, ready;
 
+
+
 function preload() {
   ready = loadImage('greenRect.png');
   draft = loadImage('greyRect.png');
@@ -7,7 +9,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas(500,500);
+  createCanvas (700, 700);
   noCursor(); 
    cursor('littlerat.png', 20, 20);
   image(ready, 0, 0);
@@ -23,5 +25,5 @@ function setup() {
 // }
 
 function mouseDragged() {
-  copy(ready, mouseX, mouseY, 80, 80, mouseX, mouseY, 80, 80);
+  copy(ready, mouseX, mouseY, 60, 60, mouseX, mouseY, 60, 60);
 }
