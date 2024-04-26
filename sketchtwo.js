@@ -8,7 +8,7 @@ var gradient = {
 function windowResized() {
   createCanvas (windowWidth, windowHeight);
 }
-
+ 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   gradient.r = random(0, 100);
