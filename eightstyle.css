@@ -28,16 +28,24 @@ html, body {
     margin-top: 10%;
   }
 
+  p {
+    font-family: "Alata";
+    color: black;
+    font-size: 16pt;
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
+  }
+
   .lamp {
     position: fixed;
     bottom: 2%;
     left: 4%
   }
-.picture{ 
-  a:hover{
+
+  .picture:hover{
     opacity: 70%;
   }
-}
 
   .center{
     display: block;
