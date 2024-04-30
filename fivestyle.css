@@ -19,7 +19,9 @@ html, body {
     display: block;
     margin:auto;
     margin-top: 8%;
+    padding-bottom: 7%;
   }
+  
   h1 {
     font-family: "Alata";
     font-size: 40pt;

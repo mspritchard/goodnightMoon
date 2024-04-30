@@ -18,14 +18,25 @@ html, body {
   canvas {
     display: block;
     margin:auto;
-    padding-top: 10%;
+    margin-top: 8%;
+    margin-bottom: 4%;
   }
+
   h1 {
     font-family: "Alata";
     font-size: 40pt;
     margin: auto;
     text-align: center;
     margin-top: 10%;
+  }
+
+  p {
+    font-family: "Alata";
+    color: black;
+    font-size: 16pt;
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
   }
 
   .lamp {
