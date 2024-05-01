@@ -6,6 +6,11 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: "actionMan";
+    src: url(action_man_extended.otf);
+  }
+
 html, body {
     margin: 0;
     padding: 0;

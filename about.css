@@ -23,23 +23,28 @@ html, body {
   canvas {
     display: block;
     margin:auto;
-    padding-top: 3%;
-  }
-  h1 {
-    font-family: "Alata";
-    font-size: 40pt;
-    margin: auto;
-    text-align: center;
-    margin-top: 10%;
+    padding-top: 10%;
   }
 
+  h1 {
+    color: #FDE200;
+    font-family: "actionMan";
+    font-size: 8rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+    -webkit-text-stroke: 1pt;
+    -webkit-text-stroke-color: black;
+  }
   p {
     font-family: "Alata";
-    color: black;
-    font-size: 16pt;
+    font-size: 50pt;
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
     position: fixed;
-    right: 5%;
-    bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   .lamp {
@@ -50,9 +55,16 @@ html, body {
 
   a{
     text-decoration: none;
-    color: black;
+    color: #FDE200;
+    -webkit-text-stroke: 2%;
+    -webkit-text-stroke-color: black;
   }
   a:hover {
-    color: #FDE200;
+    color: #0491C6;
   }
-  
+
+.cat {
+    position: fixed;
+    bottom: 2%;
+    left: 4%
+  }

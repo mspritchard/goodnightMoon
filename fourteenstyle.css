@@ -8,7 +8,7 @@
 
   @font-face {
     font-family: "actionMan";
-    src: url(action_man_extended.ttf);
+    src: url(action_man_extended.otf);
   }
 
 html, body {
@@ -50,4 +50,10 @@ html, body {
   }
   a:hover {
     color: #0491C6;
+  }
+
+  .cat {
+    position: fixed;
+    bottom: 5%;
+    left: 4%
   }
