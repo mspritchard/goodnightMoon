@@ -26,7 +26,7 @@ function draw() {
 
 
   imageMode(CENTER);
-  gif_createImg.position(980,730 );
+  gif_createImg.position(850,530 );
   
 
   imageMode(CENTER); 
