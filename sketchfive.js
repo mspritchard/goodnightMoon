@@ -1,6 +1,6 @@
 var link;
 
-let sentence = "And there were # little bears sitting on chairs";
+let sentence = "And there were __ little bears sitting on chairs";
 let wordIndexToReplace = 3; // Change this to the index of the word you want to replace
 let words = ["two", "three", "four", "five", "six"];
 

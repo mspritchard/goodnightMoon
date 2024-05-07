@@ -1,6 +1,6 @@
 var link;
 
-let sentence = "And a little blank";
+let sentence = "And a little __";
 let wordIndexToReplace = 3; // Change this to the index of the word you want to replace
 let words = ["barn", "toyhouse", "mansion", "hotel", "school"];
 
