@@ -1,5 +1,7 @@
 let cow;
 let pic;
+let x = 0; 
+let y = 0; 
 var gif_loadImg, gif_createImg;
 
 
@@ -27,10 +29,18 @@ function draw() {
 
   imageMode(CENTER);
   gif_createImg.position(900,650);
-  
+   //x+= (mouseX - x) * 0.04; 
+   //y+= (mouseY - y) * 0.04; 
+
+  x = constrain(mouseX, 100, 600); 
+  y = constrain(mouseY, 100, 500); 
 
   imageMode(CENTER); 
-  image(cow, mouseX, mouseY);
+  image(cow, x, y);
+
+ 
+
+   
   
   image(frame, width / 2, height / 2, width, height);
   
